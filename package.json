@@ -4,11 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "concurrently \"node server.cjs\" \"vite\""
+    "start": "node server.cjs"
   },
   "main": "api/notify-admin.js",
   "dependencies": {
