@@ -10,8 +10,6 @@
     "preview": "vite preview",
     "start": "concurrently \"node server.cjs\" \"vite\""
   },
-  "name": "backend",
-  "version": "1.0.0",
   "main": "api/notify-admin.js",
   "dependencies": {
     "antd": "^5.21.0",
